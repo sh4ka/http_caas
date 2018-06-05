@@ -1,0 +1,5 @@
+index:
+    path: /{code}
+    controller: App\Controller\DefaultController::index
+    requirements:
+        code: '\d{3,4}'
